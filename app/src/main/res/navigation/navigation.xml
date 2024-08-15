@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation">
+    <activity
+        android:id="@+id/signInActivity"
+        android:name="com.example.cardiomobilev2.SignInActivity"
+        android:label="activity_sign_in"
+        tools:layout="@layout/activity_sign_in" />
+    <activity
+        android:id="@+id/logInActivity"
+        android:name="com.example.cardiomobilev2.LogInActivity"
+        android:label="activity_log_in"
+        tools:layout="@layout/activity_log_in" />
+</navigation>

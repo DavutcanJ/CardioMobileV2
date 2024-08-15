@@ -16,12 +16,24 @@
         "source": "C:\\Users\\davut\\.gradle\\daemon\\8.4\\com.example.cardiomobilev2.app-main-54:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
+        "merged": "com.example.cardiomobilev2.app-debug-52:/drawable_baseline_android_24.xml.flat",
+        "source": "com.example.cardiomobilev2.app-main-54:/drawable/baseline_android_24.xml"
+    },
+    {
         "merged": "C:\\Users\\davut\\.gradle\\daemon\\8.4\\com.example.cardiomobilev2.app-debug-52:\\drawable_background.png.flat",
         "source": "C:\\Users\\davut\\.gradle\\daemon\\8.4\\com.example.cardiomobilev2.app-main-54:\\drawable\\background.png"
     },
     {
+        "merged": "com.example.cardiomobilev2.app-debug-52:/drawable_baseline_person_24.xml.flat",
+        "source": "com.example.cardiomobilev2.app-main-54:/drawable/baseline_person_24.xml"
+    },
+    {
         "merged": "C:\\Users\\davut\\.gradle\\daemon\\8.4\\com.example.cardiomobilev2.app-debug-52:\\xml_backup_rules.xml.flat",
         "source": "C:\\Users\\davut\\.gradle\\daemon\\8.4\\com.example.cardiomobilev2.app-main-54:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "com.example.cardiomobilev2.app-debug-52:/xml_network_security_config.xml.flat",
+        "source": "com.example.cardiomobilev2.app-main-54:/xml/network_security_config.xml"
     },
     {
         "merged": "C:\\Users\\davut\\.gradle\\daemon\\8.4\\com.example.cardiomobilev2.app-debug-52:\\layout_activity_log_in.xml.flat",
@@ -48,12 +60,16 @@
         "source": "C:\\Users\\davut\\.gradle\\daemon\\8.4\\com.example.cardiomobilev2.app-main-54:\\drawable\\baseline_person_24.xml"
     },
     {
-        "merged": "C:\\Users\\davut\\.gradle\\daemon\\8.4\\com.example.cardiomobilev2.app-debug-52:\\layout_activity_sign_in.xml.flat",
-        "source": "C:\\Users\\davut\\.gradle\\daemon\\8.4\\com.example.cardiomobilev2.app-main-54:\\layout\\activity_sign_in.xml"
+        "merged": "com.example.cardiomobilev2.app-debug-52:/navigation_navigation.xml.flat",
+        "source": "com.example.cardiomobilev2.app-main-54:/navigation/navigation.xml"
     },
     {
-        "merged": "com.example.cardiomobilev2.app-debug-52:/layout_activity_main.xml.flat",
-        "source": "com.example.cardiomobilev2.app-main-54:/layout/activity_main.xml"
+        "merged": "com.example.cardiomobilev2.app-debug-52:/drawable_baseline_alternate_email_24.xml.flat",
+        "source": "com.example.cardiomobilev2.app-main-54:/drawable/baseline_alternate_email_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\davut\\.gradle\\daemon\\8.4\\com.example.cardiomobilev2.app-debug-52:\\layout_activity_sign_in.xml.flat",
+        "source": "C:\\Users\\davut\\.gradle\\daemon\\8.4\\com.example.cardiomobilev2.app-main-54:\\layout\\activity_sign_in.xml"
     },
     {
         "merged": "C:\\Users\\davut\\.gradle\\daemon\\8.4\\com.example.cardiomobilev2.app-debug-52:\\mipmap-hdpi_ic_launcher_round.webp.flat",
