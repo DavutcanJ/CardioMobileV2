@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">545612310006-1ufhkmns6f9gte6kdrsou8vejp355pn5.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">545612310006</string>
+    <string name="google_api_key" translatable="false">AIzaSyDn_UnWzMEu7Tkybu2fY2PiuWAJpD9dTko</string>
+    <string name="google_app_id" translatable="false">1:545612310006:android:bbb3789329324d278fd3d7</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDn_UnWzMEu7Tkybu2fY2PiuWAJpD9dTko</string>
+    <string name="google_storage_bucket" translatable="false">cardioapp-29950.appspot.com</string>
+    <string name="project_id" translatable="false">cardioapp-29950</string>
+</resources>

@@ -1,0 +1,313 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.cardiomobilev2"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\davut\MobileApps\CardioMobileV2\app\src\main\AndroidManifest.xml:4:5-67
+11-->C:\Users\davut\MobileApps\CardioMobileV2\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\davut\.gradle\caches\transforms-3\5489c4df6ac2bd81b44639d575aaf5c6\transformed\firebase-auth-22.3.1\AndroidManifest.xml:26:5-79
+12-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\davut\.gradle\caches\transforms-3\5489c4df6ac2bd81b44639d575aaf5c6\transformed\firebase-auth-22.3.1\AndroidManifest.xml:26:22-76
+13    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+13-->[com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\davut\.gradle\caches\transforms-3\3ca286bdffdc027f1c26501e2d7610af\transformed\recaptcha-18.4.0\AndroidManifest.xml:9:5-98
+13-->[com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\davut\.gradle\caches\transforms-3\3ca286bdffdc027f1c26501e2d7610af\transformed\recaptcha-18.4.0\AndroidManifest.xml:9:22-95
+14
+15    <permission
+15-->[androidx.core:core:1.10.1] C:\Users\davut\.gradle\caches\transforms-3\81ba14c225916b0e7fa8e72ebc70f626\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+16        android:name="com.example.cardiomobilev2.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+16-->[androidx.core:core:1.10.1] C:\Users\davut\.gradle\caches\transforms-3\81ba14c225916b0e7fa8e72ebc70f626\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+17        android:protectionLevel="signature" />
+17-->[androidx.core:core:1.10.1] C:\Users\davut\.gradle\caches\transforms-3\81ba14c225916b0e7fa8e72ebc70f626\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+18
+19    <uses-permission android:name="com.example.cardiomobilev2.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+19-->[androidx.core:core:1.10.1] C:\Users\davut\.gradle\caches\transforms-3\81ba14c225916b0e7fa8e72ebc70f626\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+19-->[androidx.core:core:1.10.1] C:\Users\davut\.gradle\caches\transforms-3\81ba14c225916b0e7fa8e72ebc70f626\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+20
+21    <application
+21-->C:\Users\davut\MobileApps\CardioMobileV2\app\src\main\AndroidManifest.xml:6:5-38:19
+22        android:allowBackup="true"
+22-->C:\Users\davut\MobileApps\CardioMobileV2\app\src\main\AndroidManifest.xml:8:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.10.1] C:\Users\davut\.gradle\caches\transforms-3\81ba14c225916b0e7fa8e72ebc70f626\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+24        android:dataExtractionRules="@xml/data_extraction_rules"
+24-->C:\Users\davut\MobileApps\CardioMobileV2\app\src\main\AndroidManifest.xml:9:9-65
+25        android:debuggable="true"
+26        android:extractNativeLibs="false"
+27        android:fullBackupContent="@xml/backup_rules"
+27-->C:\Users\davut\MobileApps\CardioMobileV2\app\src\main\AndroidManifest.xml:10:9-54
+28        android:icon="@mipmap/ic_launcher"
+28-->C:\Users\davut\MobileApps\CardioMobileV2\app\src\main\AndroidManifest.xml:11:9-43
+29        android:label="@string/app_name"
+29-->C:\Users\davut\MobileApps\CardioMobileV2\app\src\main\AndroidManifest.xml:13:9-41
+30        android:networkSecurityConfig="@xml/network_security_config"
+30-->C:\Users\davut\MobileApps\CardioMobileV2\app\src\main\AndroidManifest.xml:12:9-69
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->C:\Users\davut\MobileApps\CardioMobileV2\app\src\main\AndroidManifest.xml:14:9-54
+32        android:supportsRtl="true"
+32-->C:\Users\davut\MobileApps\CardioMobileV2\app\src\main\AndroidManifest.xml:15:9-35
+33        android:testOnly="true"
+34        android:theme="@style/Theme.CardioMobileV2"
+34-->C:\Users\davut\MobileApps\CardioMobileV2\app\src\main\AndroidManifest.xml:16:9-52
+35        android:usesCleartextTraffic="true" >
+35-->C:\Users\davut\MobileApps\CardioMobileV2\app\src\main\AndroidManifest.xml:7:9-44
+36        <activity
+36-->C:\Users\davut\MobileApps\CardioMobileV2\app\src\main\AndroidManifest.xml:18:9-28:20
+37            android:name="com.example.cardiomobilev2.LogInActivity"
+37-->C:\Users\davut\MobileApps\CardioMobileV2\app\src\main\AndroidManifest.xml:19:13-42
+38            android:exported="true"
+38-->C:\Users\davut\MobileApps\CardioMobileV2\app\src\main\AndroidManifest.xml:20:13-36
+39            android:theme="@style/Theme.CardioMobileV2" >
+39-->C:\Users\davut\MobileApps\CardioMobileV2\app\src\main\AndroidManifest.xml:21:13-56
+40            <intent-filter>
+40-->C:\Users\davut\MobileApps\CardioMobileV2\app\src\main\AndroidManifest.xml:22:13-26:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->C:\Users\davut\MobileApps\CardioMobileV2\app\src\main\AndroidManifest.xml:23:17-69
+41-->C:\Users\davut\MobileApps\CardioMobileV2\app\src\main\AndroidManifest.xml:23:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->C:\Users\davut\MobileApps\CardioMobileV2\app\src\main\AndroidManifest.xml:25:17-77
+43-->C:\Users\davut\MobileApps\CardioMobileV2\app\src\main\AndroidManifest.xml:25:27-74
+44            </intent-filter>
+45        </activity>
+46        <activity
+46-->C:\Users\davut\MobileApps\CardioMobileV2\app\src\main\AndroidManifest.xml:29:9-32:59
+47            android:name="com.example.cardiomobilev2.SignInActivity"
+47-->C:\Users\davut\MobileApps\CardioMobileV2\app\src\main\AndroidManifest.xml:30:13-43
+48            android:exported="false"
+48-->C:\Users\davut\MobileApps\CardioMobileV2\app\src\main\AndroidManifest.xml:31:13-37
+49            android:theme="@style/Theme.CardioMobileV2" />
+49-->C:\Users\davut\MobileApps\CardioMobileV2\app\src\main\AndroidManifest.xml:32:13-56
+50        <activity
+50-->C:\Users\davut\MobileApps\CardioMobileV2\app\src\main\AndroidManifest.xml:33:9-37:20
+51            android:name="com.example.cardiomobilev2.MainActivity"
+51-->C:\Users\davut\MobileApps\CardioMobileV2\app\src\main\AndroidManifest.xml:34:13-41
+52            android:exported="true" >
+52-->C:\Users\davut\MobileApps\CardioMobileV2\app\src\main\AndroidManifest.xml:35:13-36
+53        </activity>
+54        <activity
+54-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\davut\.gradle\caches\transforms-3\5489c4df6ac2bd81b44639d575aaf5c6\transformed\firebase-auth-22.3.1\AndroidManifest.xml:29:9-46:20
+55            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+55-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\davut\.gradle\caches\transforms-3\5489c4df6ac2bd81b44639d575aaf5c6\transformed\firebase-auth-22.3.1\AndroidManifest.xml:30:13-80
+56            android:excludeFromRecents="true"
+56-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\davut\.gradle\caches\transforms-3\5489c4df6ac2bd81b44639d575aaf5c6\transformed\firebase-auth-22.3.1\AndroidManifest.xml:31:13-46
+57            android:exported="true"
+57-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\davut\.gradle\caches\transforms-3\5489c4df6ac2bd81b44639d575aaf5c6\transformed\firebase-auth-22.3.1\AndroidManifest.xml:32:13-36
+58            android:launchMode="singleTask"
+58-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\davut\.gradle\caches\transforms-3\5489c4df6ac2bd81b44639d575aaf5c6\transformed\firebase-auth-22.3.1\AndroidManifest.xml:33:13-44
+59            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+59-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\davut\.gradle\caches\transforms-3\5489c4df6ac2bd81b44639d575aaf5c6\transformed\firebase-auth-22.3.1\AndroidManifest.xml:34:13-72
+60            <intent-filter>
+60-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\davut\.gradle\caches\transforms-3\5489c4df6ac2bd81b44639d575aaf5c6\transformed\firebase-auth-22.3.1\AndroidManifest.xml:35:13-45:29
+61                <action android:name="android.intent.action.VIEW" />
+61-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\davut\.gradle\caches\transforms-3\5489c4df6ac2bd81b44639d575aaf5c6\transformed\firebase-auth-22.3.1\AndroidManifest.xml:36:17-69
+61-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\davut\.gradle\caches\transforms-3\5489c4df6ac2bd81b44639d575aaf5c6\transformed\firebase-auth-22.3.1\AndroidManifest.xml:36:25-66
+62
+63                <category android:name="android.intent.category.DEFAULT" />
+63-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\davut\.gradle\caches\transforms-3\5489c4df6ac2bd81b44639d575aaf5c6\transformed\firebase-auth-22.3.1\AndroidManifest.xml:38:17-76
+63-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\davut\.gradle\caches\transforms-3\5489c4df6ac2bd81b44639d575aaf5c6\transformed\firebase-auth-22.3.1\AndroidManifest.xml:38:27-73
+64                <category android:name="android.intent.category.BROWSABLE" />
+64-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\davut\.gradle\caches\transforms-3\5489c4df6ac2bd81b44639d575aaf5c6\transformed\firebase-auth-22.3.1\AndroidManifest.xml:39:17-78
+64-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\davut\.gradle\caches\transforms-3\5489c4df6ac2bd81b44639d575aaf5c6\transformed\firebase-auth-22.3.1\AndroidManifest.xml:39:27-75
+65
+66                <data
+66-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\davut\.gradle\caches\transforms-3\5489c4df6ac2bd81b44639d575aaf5c6\transformed\firebase-auth-22.3.1\AndroidManifest.xml:41:17-44:51
+67                    android:host="firebase.auth"
+67-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\davut\.gradle\caches\transforms-3\5489c4df6ac2bd81b44639d575aaf5c6\transformed\firebase-auth-22.3.1\AndroidManifest.xml:42:21-49
+68                    android:path="/"
+68-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\davut\.gradle\caches\transforms-3\5489c4df6ac2bd81b44639d575aaf5c6\transformed\firebase-auth-22.3.1\AndroidManifest.xml:43:21-37
+69                    android:scheme="genericidp" />
+69-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\davut\.gradle\caches\transforms-3\5489c4df6ac2bd81b44639d575aaf5c6\transformed\firebase-auth-22.3.1\AndroidManifest.xml:44:21-48
+70            </intent-filter>
+71        </activity>
+72        <activity
+72-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\davut\.gradle\caches\transforms-3\5489c4df6ac2bd81b44639d575aaf5c6\transformed\firebase-auth-22.3.1\AndroidManifest.xml:47:9-64:20
+73            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+73-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\davut\.gradle\caches\transforms-3\5489c4df6ac2bd81b44639d575aaf5c6\transformed\firebase-auth-22.3.1\AndroidManifest.xml:48:13-79
+74            android:excludeFromRecents="true"
+74-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\davut\.gradle\caches\transforms-3\5489c4df6ac2bd81b44639d575aaf5c6\transformed\firebase-auth-22.3.1\AndroidManifest.xml:49:13-46
+75            android:exported="true"
+75-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\davut\.gradle\caches\transforms-3\5489c4df6ac2bd81b44639d575aaf5c6\transformed\firebase-auth-22.3.1\AndroidManifest.xml:50:13-36
+76            android:launchMode="singleTask"
+76-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\davut\.gradle\caches\transforms-3\5489c4df6ac2bd81b44639d575aaf5c6\transformed\firebase-auth-22.3.1\AndroidManifest.xml:51:13-44
+77            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+77-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\davut\.gradle\caches\transforms-3\5489c4df6ac2bd81b44639d575aaf5c6\transformed\firebase-auth-22.3.1\AndroidManifest.xml:52:13-72
+78            <intent-filter>
+78-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\davut\.gradle\caches\transforms-3\5489c4df6ac2bd81b44639d575aaf5c6\transformed\firebase-auth-22.3.1\AndroidManifest.xml:53:13-63:29
+79                <action android:name="android.intent.action.VIEW" />
+79-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\davut\.gradle\caches\transforms-3\5489c4df6ac2bd81b44639d575aaf5c6\transformed\firebase-auth-22.3.1\AndroidManifest.xml:36:17-69
+79-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\davut\.gradle\caches\transforms-3\5489c4df6ac2bd81b44639d575aaf5c6\transformed\firebase-auth-22.3.1\AndroidManifest.xml:36:25-66
+80
+81                <category android:name="android.intent.category.DEFAULT" />
+81-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\davut\.gradle\caches\transforms-3\5489c4df6ac2bd81b44639d575aaf5c6\transformed\firebase-auth-22.3.1\AndroidManifest.xml:38:17-76
+81-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\davut\.gradle\caches\transforms-3\5489c4df6ac2bd81b44639d575aaf5c6\transformed\firebase-auth-22.3.1\AndroidManifest.xml:38:27-73
+82                <category android:name="android.intent.category.BROWSABLE" />
+82-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\davut\.gradle\caches\transforms-3\5489c4df6ac2bd81b44639d575aaf5c6\transformed\firebase-auth-22.3.1\AndroidManifest.xml:39:17-78
+82-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\davut\.gradle\caches\transforms-3\5489c4df6ac2bd81b44639d575aaf5c6\transformed\firebase-auth-22.3.1\AndroidManifest.xml:39:27-75
+83
+84                <data
+84-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\davut\.gradle\caches\transforms-3\5489c4df6ac2bd81b44639d575aaf5c6\transformed\firebase-auth-22.3.1\AndroidManifest.xml:41:17-44:51
+85                    android:host="firebase.auth"
+85-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\davut\.gradle\caches\transforms-3\5489c4df6ac2bd81b44639d575aaf5c6\transformed\firebase-auth-22.3.1\AndroidManifest.xml:42:21-49
+86                    android:path="/"
+86-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\davut\.gradle\caches\transforms-3\5489c4df6ac2bd81b44639d575aaf5c6\transformed\firebase-auth-22.3.1\AndroidManifest.xml:43:21-37
+87                    android:scheme="recaptcha" />
+87-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\davut\.gradle\caches\transforms-3\5489c4df6ac2bd81b44639d575aaf5c6\transformed\firebase-auth-22.3.1\AndroidManifest.xml:44:21-48
+88            </intent-filter>
+89        </activity>
+90
+91        <service
+91-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\davut\.gradle\caches\transforms-3\5489c4df6ac2bd81b44639d575aaf5c6\transformed\firebase-auth-22.3.1\AndroidManifest.xml:66:9-72:19
+92            android:name="com.google.firebase.components.ComponentDiscoveryService"
+92-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\davut\.gradle\caches\transforms-3\5489c4df6ac2bd81b44639d575aaf5c6\transformed\firebase-auth-22.3.1\AndroidManifest.xml:67:13-84
+93            android:directBootAware="true"
+93-->[com.google.firebase:firebase-common:21.0.0] C:\Users\davut\.gradle\caches\transforms-3\083fba1925508965c89f23d5d3f2640e\transformed\firebase-common-21.0.0\AndroidManifest.xml:32:13-43
+94            android:exported="false" >
+94-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\davut\.gradle\caches\transforms-3\5489c4df6ac2bd81b44639d575aaf5c6\transformed\firebase-auth-22.3.1\AndroidManifest.xml:68:13-37
+95            <meta-data
+95-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\davut\.gradle\caches\transforms-3\5489c4df6ac2bd81b44639d575aaf5c6\transformed\firebase-auth-22.3.1\AndroidManifest.xml:69:13-71:85
+96                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+96-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\davut\.gradle\caches\transforms-3\5489c4df6ac2bd81b44639d575aaf5c6\transformed\firebase-auth-22.3.1\AndroidManifest.xml:70:17-109
+97                android:value="com.google.firebase.components.ComponentRegistrar" />
+97-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\davut\.gradle\caches\transforms-3\5489c4df6ac2bd81b44639d575aaf5c6\transformed\firebase-auth-22.3.1\AndroidManifest.xml:71:17-82
+98            <meta-data
+98-->[com.google.firebase:firebase-firestore:25.0.0] C:\Users\davut\.gradle\caches\transforms-3\17dc72c264179dbc8a4d10fa04030c3b\transformed\firebase-firestore-25.0.0\AndroidManifest.xml:17:13-19:85
+99                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+99-->[com.google.firebase:firebase-firestore:25.0.0] C:\Users\davut\.gradle\caches\transforms-3\17dc72c264179dbc8a4d10fa04030c3b\transformed\firebase-firestore-25.0.0\AndroidManifest.xml:18:17-122
+100                android:value="com.google.firebase.components.ComponentRegistrar" />
+100-->[com.google.firebase:firebase-firestore:25.0.0] C:\Users\davut\.gradle\caches\transforms-3\17dc72c264179dbc8a4d10fa04030c3b\transformed\firebase-firestore-25.0.0\AndroidManifest.xml:19:17-82
+101            <meta-data
+101-->[com.google.firebase:firebase-firestore:25.0.0] C:\Users\davut\.gradle\caches\transforms-3\17dc72c264179dbc8a4d10fa04030c3b\transformed\firebase-firestore-25.0.0\AndroidManifest.xml:20:13-22:85
+102                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+102-->[com.google.firebase:firebase-firestore:25.0.0] C:\Users\davut\.gradle\caches\transforms-3\17dc72c264179dbc8a4d10fa04030c3b\transformed\firebase-firestore-25.0.0\AndroidManifest.xml:21:17-111
+103                android:value="com.google.firebase.components.ComponentRegistrar" />
+103-->[com.google.firebase:firebase-firestore:25.0.0] C:\Users\davut\.gradle\caches\transforms-3\17dc72c264179dbc8a4d10fa04030c3b\transformed\firebase-firestore-25.0.0\AndroidManifest.xml:22:17-82
+104            <meta-data
+104-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\davut\.gradle\caches\transforms-3\ea5f95da7aaa1117a0b5768fc9803dcf\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
+105                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+105-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\davut\.gradle\caches\transforms-3\ea5f95da7aaa1117a0b5768fc9803dcf\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:13:17-116
+106                android:value="com.google.firebase.components.ComponentRegistrar" />
+106-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\davut\.gradle\caches\transforms-3\ea5f95da7aaa1117a0b5768fc9803dcf\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:14:17-82
+107            <meta-data
+107-->[com.google.firebase:firebase-common:21.0.0] C:\Users\davut\.gradle\caches\transforms-3\083fba1925508965c89f23d5d3f2640e\transformed\firebase-common-21.0.0\AndroidManifest.xml:35:13-37:85
+108                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+108-->[com.google.firebase:firebase-common:21.0.0] C:\Users\davut\.gradle\caches\transforms-3\083fba1925508965c89f23d5d3f2640e\transformed\firebase-common-21.0.0\AndroidManifest.xml:36:17-109
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[com.google.firebase:firebase-common:21.0.0] C:\Users\davut\.gradle\caches\transforms-3\083fba1925508965c89f23d5d3f2640e\transformed\firebase-common-21.0.0\AndroidManifest.xml:37:17-82
+110        </service>
+111
+112        <activity
+112-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\davut\.gradle\caches\transforms-3\2f9f1235ba79e4242900038fc73aaa85\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+113            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+113-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\davut\.gradle\caches\transforms-3\2f9f1235ba79e4242900038fc73aaa85\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+114            android:exported="false"
+114-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\davut\.gradle\caches\transforms-3\2f9f1235ba79e4242900038fc73aaa85\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+115            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+115-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\davut\.gradle\caches\transforms-3\2f9f1235ba79e4242900038fc73aaa85\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+116
+117        <provider
+117-->[com.google.firebase:firebase-common:21.0.0] C:\Users\davut\.gradle\caches\transforms-3\083fba1925508965c89f23d5d3f2640e\transformed\firebase-common-21.0.0\AndroidManifest.xml:23:9-28:39
+118            android:name="com.google.firebase.provider.FirebaseInitProvider"
+118-->[com.google.firebase:firebase-common:21.0.0] C:\Users\davut\.gradle\caches\transforms-3\083fba1925508965c89f23d5d3f2640e\transformed\firebase-common-21.0.0\AndroidManifest.xml:24:13-77
+119            android:authorities="com.example.cardiomobilev2.firebaseinitprovider"
+119-->[com.google.firebase:firebase-common:21.0.0] C:\Users\davut\.gradle\caches\transforms-3\083fba1925508965c89f23d5d3f2640e\transformed\firebase-common-21.0.0\AndroidManifest.xml:25:13-72
+120            android:directBootAware="true"
+120-->[com.google.firebase:firebase-common:21.0.0] C:\Users\davut\.gradle\caches\transforms-3\083fba1925508965c89f23d5d3f2640e\transformed\firebase-common-21.0.0\AndroidManifest.xml:26:13-43
+121            android:exported="false"
+121-->[com.google.firebase:firebase-common:21.0.0] C:\Users\davut\.gradle\caches\transforms-3\083fba1925508965c89f23d5d3f2640e\transformed\firebase-common-21.0.0\AndroidManifest.xml:27:13-37
+122            android:initOrder="100" />
+122-->[com.google.firebase:firebase-common:21.0.0] C:\Users\davut\.gradle\caches\transforms-3\083fba1925508965c89f23d5d3f2640e\transformed\firebase-common-21.0.0\AndroidManifest.xml:28:13-36
+123
+124        <meta-data
+124-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\davut\.gradle\caches\transforms-3\aa1eafc493c592190c052b54183ecc0e\transformed\play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
+125            android:name="com.google.android.gms.version"
+125-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\davut\.gradle\caches\transforms-3\aa1eafc493c592190c052b54183ecc0e\transformed\play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
+126            android:value="@integer/google_play_services_version" />
+126-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\davut\.gradle\caches\transforms-3\aa1eafc493c592190c052b54183ecc0e\transformed\play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
+127
+128        <provider
+128-->[androidx.emoji2:emoji2:1.2.0] C:\Users\davut\.gradle\caches\transforms-3\ad540bb1300f28da683e47dcc106963a\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+129            android:name="androidx.startup.InitializationProvider"
+129-->[androidx.emoji2:emoji2:1.2.0] C:\Users\davut\.gradle\caches\transforms-3\ad540bb1300f28da683e47dcc106963a\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+130            android:authorities="com.example.cardiomobilev2.androidx-startup"
+130-->[androidx.emoji2:emoji2:1.2.0] C:\Users\davut\.gradle\caches\transforms-3\ad540bb1300f28da683e47dcc106963a\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+131            android:exported="false" >
+131-->[androidx.emoji2:emoji2:1.2.0] C:\Users\davut\.gradle\caches\transforms-3\ad540bb1300f28da683e47dcc106963a\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+132            <meta-data
+132-->[androidx.emoji2:emoji2:1.2.0] C:\Users\davut\.gradle\caches\transforms-3\ad540bb1300f28da683e47dcc106963a\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+133                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+133-->[androidx.emoji2:emoji2:1.2.0] C:\Users\davut\.gradle\caches\transforms-3\ad540bb1300f28da683e47dcc106963a\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+134                android:value="androidx.startup" />
+134-->[androidx.emoji2:emoji2:1.2.0] C:\Users\davut\.gradle\caches\transforms-3\ad540bb1300f28da683e47dcc106963a\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+135            <meta-data
+135-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\davut\.gradle\caches\transforms-3\aa1aa83ac7cdf359dd4c5d00fe93c7b3\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+136                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+136-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\davut\.gradle\caches\transforms-3\aa1aa83ac7cdf359dd4c5d00fe93c7b3\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+137                android:value="androidx.startup" />
+137-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\davut\.gradle\caches\transforms-3\aa1aa83ac7cdf359dd4c5d00fe93c7b3\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+138            <meta-data
+138-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\davut\.gradle\caches\transforms-3\eb4cbcab833c55155c7c8836e73f5098\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+139                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+139-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\davut\.gradle\caches\transforms-3\eb4cbcab833c55155c7c8836e73f5098\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+140                android:value="androidx.startup" />
+140-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\davut\.gradle\caches\transforms-3\eb4cbcab833c55155c7c8836e73f5098\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+141        </provider>
+142
+143        <uses-library
+143-->[androidx.window:window:1.0.0] C:\Users\davut\.gradle\caches\transforms-3\1e67e63753f79bd635d7e5239f8a29cc\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+144            android:name="androidx.window.extensions"
+144-->[androidx.window:window:1.0.0] C:\Users\davut\.gradle\caches\transforms-3\1e67e63753f79bd635d7e5239f8a29cc\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+145            android:required="false" />
+145-->[androidx.window:window:1.0.0] C:\Users\davut\.gradle\caches\transforms-3\1e67e63753f79bd635d7e5239f8a29cc\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+146        <uses-library
+146-->[androidx.window:window:1.0.0] C:\Users\davut\.gradle\caches\transforms-3\1e67e63753f79bd635d7e5239f8a29cc\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+147            android:name="androidx.window.sidecar"
+147-->[androidx.window:window:1.0.0] C:\Users\davut\.gradle\caches\transforms-3\1e67e63753f79bd635d7e5239f8a29cc\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+148            android:required="false" />
+148-->[androidx.window:window:1.0.0] C:\Users\davut\.gradle\caches\transforms-3\1e67e63753f79bd635d7e5239f8a29cc\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+149
+150        <receiver
+150-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\davut\.gradle\caches\transforms-3\eb4cbcab833c55155c7c8836e73f5098\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+151            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+151-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\davut\.gradle\caches\transforms-3\eb4cbcab833c55155c7c8836e73f5098\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+152            android:directBootAware="false"
+152-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\davut\.gradle\caches\transforms-3\eb4cbcab833c55155c7c8836e73f5098\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+153            android:enabled="true"
+153-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\davut\.gradle\caches\transforms-3\eb4cbcab833c55155c7c8836e73f5098\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+154            android:exported="true"
+154-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\davut\.gradle\caches\transforms-3\eb4cbcab833c55155c7c8836e73f5098\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+155            android:permission="android.permission.DUMP" >
+155-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\davut\.gradle\caches\transforms-3\eb4cbcab833c55155c7c8836e73f5098\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+156            <intent-filter>
+156-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\davut\.gradle\caches\transforms-3\eb4cbcab833c55155c7c8836e73f5098\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+157                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+157-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\davut\.gradle\caches\transforms-3\eb4cbcab833c55155c7c8836e73f5098\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+157-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\davut\.gradle\caches\transforms-3\eb4cbcab833c55155c7c8836e73f5098\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+158            </intent-filter>
+159            <intent-filter>
+159-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\davut\.gradle\caches\transforms-3\eb4cbcab833c55155c7c8836e73f5098\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+160                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+160-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\davut\.gradle\caches\transforms-3\eb4cbcab833c55155c7c8836e73f5098\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+160-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\davut\.gradle\caches\transforms-3\eb4cbcab833c55155c7c8836e73f5098\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+161            </intent-filter>
+162            <intent-filter>
+162-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\davut\.gradle\caches\transforms-3\eb4cbcab833c55155c7c8836e73f5098\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+163                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+163-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\davut\.gradle\caches\transforms-3\eb4cbcab833c55155c7c8836e73f5098\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+163-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\davut\.gradle\caches\transforms-3\eb4cbcab833c55155c7c8836e73f5098\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+164            </intent-filter>
+165            <intent-filter>
+165-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\davut\.gradle\caches\transforms-3\eb4cbcab833c55155c7c8836e73f5098\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+166                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+166-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\davut\.gradle\caches\transforms-3\eb4cbcab833c55155c7c8836e73f5098\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+166-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\davut\.gradle\caches\transforms-3\eb4cbcab833c55155c7c8836e73f5098\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+167            </intent-filter>
+168        </receiver>
+169    </application>
+170
+171</manifest>

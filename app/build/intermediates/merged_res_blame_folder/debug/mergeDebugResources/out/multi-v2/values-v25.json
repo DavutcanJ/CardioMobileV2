@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.cardiomobilev2.app-mergeDebugResources-50:/values-v25/values-v25.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\davut\\.gradle\\caches\\transforms-3\\7124f84a4fd630930d1afc6a399151fa\\transformed\\appcompat-1.6.1\\res\\values-v25\\values-v25.xml",
+                    "from": {
+                        "startLines": "2,3,4,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,126,209,308",
+                        "endLines": "2,3,5,7",
+                        "endColumns": "70,82,12,12",
+                        "endOffsets": "121,204,303,414"
+                    }
+                }
+            ]
+        }
+    ]
+}
